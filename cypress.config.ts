@@ -1,6 +1,6 @@
 import { defineConfig } from 'cypress'
 import webpackConfig from './webpack.config.js'
-​
+
 export default defineConfig({
   projectId: '11sg1m',
   retries: {

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES6",
+    "lib": ["es6", "dom", "es2017"],
+    "types": [
+      "cypress",
+      "cypress-axe",
+      "@percy/cypress",
+      "@testing-library/cypress"
+    ],
+    "noEmit": false,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "plugins/index.js",
+    "support/index.js",
+    "support/component.ts",
+    "plugins/axe-functions.ts"
+  ]
+}
